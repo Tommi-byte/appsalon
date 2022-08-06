@@ -1,0 +1,20 @@
+{
+    "name": "tomi/appsalon",
+    "description": "Proyecto PHP 8, MVC, Gulp, SQL, SASS",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Tomi\\Appsalon\\": "src/",
+            "MVC\\" : "./",
+            "Controllers\\" : "./controllers",
+            "Model\\" : "./models"
+        }
+    },
+    "authors": [
+        {
+            "name": "Tommi-byte",
+            "email": "72358637+Tommi-byte@users.noreply.github.com"
+        }
+    ],
+    "require": {}
+}
