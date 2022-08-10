@@ -11,6 +11,10 @@ class ComposerStaticInit4951ab1138aa260ffd72ca54ebe26cf7
         array (
             'Tomi\\Appsalon\\' => 14,
         ),
+        'P' => 
+        array (
+            'PHPMailer\\PHPMailer\\' => 20,
+        ),
         'M' => 
         array (
             'Model\\' => 6,
@@ -19,6 +23,7 @@ class ComposerStaticInit4951ab1138aa260ffd72ca54ebe26cf7
         'C' => 
         array (
             'Controllers\\' => 12,
+            'Classes\\' => 8,
         ),
     );
 
@@ -26,6 +31,10 @@ class ComposerStaticInit4951ab1138aa260ffd72ca54ebe26cf7
         'Tomi\\Appsalon\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src',
+        ),
+        'PHPMailer\\PHPMailer\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/phpmailer/phpmailer/src',
         ),
         'Model\\' => 
         array (
@@ -38,6 +47,10 @@ class ComposerStaticInit4951ab1138aa260ffd72ca54ebe26cf7
         'Controllers\\' => 
         array (
             0 => __DIR__ . '/../..' . '/controllers',
+        ),
+        'Classes\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/classes',
         ),
     );
 

@@ -7,7 +7,8 @@
             "Tomi\\Appsalon\\": "src/",
             "MVC\\" : "./",
             "Controllers\\" : "./controllers",
-            "Model\\" : "./models"
+            "Model\\" : "./models",
+            "Classes\\" : "./classes"
         }
     },
     "authors": [
@@ -16,5 +17,7 @@
             "email": "72358637+Tommi-byte@users.noreply.github.com"
         }
     ],
-    "require": {}
+    "require": {
+        "phpmailer/phpmailer": "^6.6"
+    }
 }
